@@ -1,0 +1,176 @@
+Table-
+create table contact(name varchar(20),first_name varchar(20),age int,gender varchar(1),date_of_birth date)
+
+create table contact(name varchar(20),first_name varchar(20),age int,gender varchar(1),date_of_birth date)
+
+insert into contact values
+('Jackson','Mickael',18,'F','1976-08-04'),
+('Taylor','Liz',16,'F','1978-08-02'),
+('Grace','Kelly',17,'F','1987-05-02'),
+('Eastwood','Clint',23,'M','1970-05-06'),
+('Willis','Bruce',22,'M','1983-08-02'),
+('Dicaprio','Leonardo',22,'M','1983-08-02'),
+('Pitt','Brad',37,'M','1975-08-02'),
+('Clooney','George',22,'M','1983-01-01'),
+('Monroe','Marylin',48,'M','1960-06-12'),
+('Roberts','Julia',47,'F','1968-06-12'),
+('Jolie','Angelina',28,'M','1972-07-24'),
+('Thuillier','Olivier',41,'M','1976-08-12'),
+('Chuillier','Olivier',41,'M','1976-08-12'),
+('Stone','Sharon',34,'F','1983-05-08'),
+('Wills','Bruce',22,'M','1983-08-02');
+
+
+Exercise-1
+Create a table in TSQL name student with three columns:
+
+Exercise-2
+Insert five rows, you must have these value in this table:
+
+Exercise-3
+You have to select the student called Clint
+
+Exercise-4
+Update the age of Clint to 24
+
+Exercise-5
+Delete from the table the student name Bruce
+
+Exercise-6
+Remove duplicate in the age
+
+Exercise-7
+Select the date of birth starting with 1976 by renaming the date of birth column with Year_1976
+
+Exercise-8
+Select the people who were born on January 1st.
+
+Exercise-9
+Select the First name that end with the letter E.
+
+Exercise-10
+A query that just takes out women (in two different ways.)
+
+Exercise-11
+Select in the query people who are 17 years old and less
+
+Exercise-12
+Select just people who are not 17 and 48 years old.
+
+Exercise-13
+Take just the first 7 rows of the table.
+
+Exercise-14
+Copy just the line from Lenoardo Dicaprio to another table called Contact_Leornado.
+
+Exercise-15
+Select just the people who were not born in the 1976.
+
+Exercise-16
+Just select who were not born in August.
+
+Exercise-17
+Count the number of rows.
+
+Exercise-18
+Add up the number of women who were born in 1983.
+
+Exercise-19
+Count the number of women between the ages of 20 and 45 whose number is greater than 1 by ranking the age in desc order.
+
+Exercise-20
+Count the Separate rows in the gender column.
+
+Exercise-21
+Insert two line in the contact table
+
+Exercise-22
+Select people who are not between 20 and 27 years old.
+
+Exercise-23
+Count the people who have the letter B in their first names
+who are between 18 and 40 years old. male and whose total is greater than 1
+
+Exercise-24
+Write me the request to get this result:
+
+Exercise-25
+Correct me this request
+select count as total, age,firstname from contact
+and gender='F' and age 
+group by age,gender firstname
+where age between16 and 40
+
+Exercise-26
+Find the job of each employee in the company
+
+Exercise-27
+Find the job of each employee in the company
+
+Exercise-28
+Find women who are recruiters
+
+Exercise-29
+Find people working with a full time contract with a salary between 2000 and 3000 dollars.
+
+Exercise-30
+How to get the two people who do not have a contract yet, with joins?
+
+Exercise-31
+How to get all the people who have a contract with joins?
+
+Exercise-32
+Find, in the same query, those who have a contract and those who do not 
+
+Exercise-33
+Can you correct me this request?
+
+
+Exercise-34
+Select the employees from line 7 to 13 with their names in uppercase.
+
+Exercise-35
+Find the men who are in the financial servies and with the IIF get the result wth Mister
+
+Exercise-36
+Fin people who were born after May with this result
+
+Exercise-37
+Find a way to write this query with a result format in Itaian.
+
+Exercise-38
+Replace in the employee table Mickael Jackson by Harry
+
+Exercise-39
+With a select find me the intials of Brad Pitt and Clint
+
+Exercise-40
+Find me names that are longer than 6 characters
+
+Exercise-41
+Con you correct me on this request.
+
+Exercise-42
+Create a stored procedure that we will name Ps_Insertion_two_rows which will insert two rows into the table Contact
+
+insert into contact values 
+('Hanks','Tom',67,'M','1971-10-14'),
+('Dean','James',43,'F','1983-08-02')
+
+Exercise-43
+create a second stored procedure that we will name PS_Update_Monrore who is going to do an update on the line 
+on behalf of Monrore, and put Superman in his place.
+
+Exercise-44
+Create a Ps_Leonardo store procedure 
+
+Exercise-45
+Create a store procedure Ps_Marvel which will contain two varaible and return this result by executing it.
+Hulk and Wolverine are some good friends.
+
+Exercise-46
+Create a view that you will call View_age where you will want to see to select women born between 1976 and 1985
+
+Exercise-47
+Create a view called view_convert which will conver the column 
+

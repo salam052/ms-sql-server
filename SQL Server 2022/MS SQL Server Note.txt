@@ -1,1 +1,9 @@
 Maximum of 32,767 database on one SQL Server
+
+Database for practice
+https://www.brentozar.com/archive/2015/10/how-to-download-the-stack-overflow-database-via-bittorrent/
+
+https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-2017&tabs=ssms
+
+
+https://sqlfiddle.com/
